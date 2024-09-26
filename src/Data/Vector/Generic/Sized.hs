@@ -285,7 +285,7 @@ import Prelude
                drop, splitAt, reverse, map, concatMap, zipWith, zipWith3, zip,
                zip3, unzip, unzip3, notElem,
                all, any, and, or, scanl, scanl1,
-               scanr, scanr1, mapM, mapM_, sequence, sequence_)
+               scanr, scanr1, mapM, mapM_, sequence, sequence_, foldl')
 import Data.IndexedListLiterals hiding (toList, fromList)
 import Data.Hashable (Hashable(..))
 import qualified Data.IndexedListLiterals as ILL
